@@ -6,6 +6,8 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
 
+import { Analytics } from "@vercel/analytics/next"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -23,6 +25,7 @@ export default function RootLayout({
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
+          <Analytics />
           <Header />
           {children}
           <Footer />
