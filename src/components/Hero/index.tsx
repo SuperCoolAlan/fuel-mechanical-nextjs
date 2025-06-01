@@ -17,7 +17,7 @@ const Hero = () => {
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Fuel Mechanical is built from a team of experienced HVAC technicians
                   that serve the Tulsa Metro area. We are licensed,
-                  bonded, & insured and prides ourselves with unparalleled quality and precision.
+                  bonded, & insured and pride ourselves with unparalleled quality and precision.
                 </p>
                 {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
