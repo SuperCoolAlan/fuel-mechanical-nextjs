@@ -1,0 +1,3 @@
+[submodule "submodules/nextjs-instagram"]
+	path = submodules/nextjs-instagram
+	url = https://github.com/SuperCoolAlan/nextjs-instagram.git
