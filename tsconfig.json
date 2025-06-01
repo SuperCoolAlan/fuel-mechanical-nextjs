@@ -1,4 +1,7 @@
 {
+  "references": [
+      { "path": "./submodules/nextjs-instagram" }
+  ],
   "compilerOptions": {
     "lib": [
       "dom",
